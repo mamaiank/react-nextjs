@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Head from "next/head";
 import { Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/style.css';
 
 export default class Layout extends React.Component {
 

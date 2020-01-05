@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import Layout from '../components/Layout';
+import fetch from "isomorphic-unfetch";
 
 const HtmlApp = (value) => {
   return (
