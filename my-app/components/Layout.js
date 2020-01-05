@@ -7,7 +7,6 @@ import '../styles/style.css';
 export default class Layout extends React.Component {
 
     render() {
-        const headerDetail = this.props.headerDetail;
         return (
             <React.Fragment>
                 <Head>
